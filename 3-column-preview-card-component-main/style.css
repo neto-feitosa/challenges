@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+
+.container {
+    width: 70%;
+    height: 70%;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 30px grey;
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    padding: 3rem;
+}
+
+.card-sedans {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(31, 77%, 52%);
+    padding: 2rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.card-suvs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(184, 100%, 22%);
+    padding: 2rem;
+}
+
+.card-luxury {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(179, 100%, 13%);
+    padding: 2rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+img {
+    width: 30%;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+    margin-top: 1rem;
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 3rem;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+button {
+    border-radius: 2rem;
+    border: none;
+    width: 110px;
+    height: 35px;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.card-sedans button {
+    color: hsl(31, 77%, 52%);
+    transition: 0.5s;
+}
+
+.card-sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: solid 1px hsl(0, 0%, 95%);
+}
+
+.card-suvs button {
+    color: hsl(184, 100%, 22%);
+    transition: 0.5s;
+}
+
+.card-suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: solid 1px hsl(0, 0%, 95%);
+}
+
+.card-luxury button {
+    color: hsl(179, 100%, 13%);
+    transition: 0.5s;
+}
+
+.card-luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: solid 1px hsl(0, 0%, 95%);
+}
