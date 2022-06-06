@@ -16,6 +16,32 @@ body {
     background-color: hsl(185, 75%, 39%);
 }
 
+.circles {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    z-index: -1;
+}
+
+
+.circles-top img {
+    width: 70%;
+    height: 100%;
+    margin-top: -300px;
+    margin-left: -50px;
+    
+}
+
+.circles-bottom img {
+    width: 70%;
+    /*height: 100%;*/
+    margin-top: 420px;
+    margin-left: 10px;
+    position: fixed;
+}
+
+
 .container {
     background-color: white;
     border-radius: 15px;
